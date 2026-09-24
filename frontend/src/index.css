@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink-950: #05070d;
+  --color-ink-900: #0a0e17;
+  --color-ink-800: #10151f;
+  --color-ink-700: #161c29;
+  --color-ink-600: #202836;
+  --color-ink-500: #313b4d;
+  --color-ink-400: #4a5670;
+  --color-ink-300: #6b7690;
+  --color-ink-200: #9aa4bc;
+  --color-ink-100: #ccd2e0;
+  --color-ink-50: #eef0f6;
+
+  --color-brand-500: #f0b90b;
+  --color-brand-600: #d9a509;
+  --color-brand-400: #f7cc4d;
+
+  --color-lender-400: #5fc9f7;
+  --color-lender-500: #38bdf8;
+  --color-lender-600: #0ea5e9;
+
+  --color-borrower-400: #c4a8fb;
+  --color-borrower-500: #a78bfa;
+  --color-borrower-600: #8b5cf6;
+
+  --color-writer-400: #5fe0af;
+  --color-writer-500: #34d399;
+  --color-writer-600: #10b981;
+
+  --color-safe-400: #5fe0af;
+  --color-safe-500: #34d399;
+  --color-danger-400: #fb8fa3;
+  --color-danger-500: #fb7185;
+  --color-danger-600: #e11d48;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-ink-950);
+  color: var(--color-ink-50);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.mono {
+  font-family: var(--font-mono);
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.text-glow-brand {
+  text-shadow: 0 0 32px rgba(240, 185, 11, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-ink-900);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-ink-600);
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-ink-500);
+}
