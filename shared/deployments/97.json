@@ -1,0 +1,11 @@
+{
+  "network": "bscTestnet",
+  "chainId": 97,
+  "stock": "0x1a0bBdcD6d05e15BA6897Fe7D10a61EF7E336fa8",
+  "stable": "0x52E4F02A8227cC3581972b6875cB213B4Fa21c4F",
+  "oracle": "0x63030159052a66F1a1537F472F67b9859fB69591",
+  "lendingPool": "0x1a59c375685981Ed5c14F00326474b7Eb45c0680",
+  "insurancePool": "0x787a35eea05F49a707bF182eCED56dCa48a4076a",
+  "engine": "0x08D7298caE654cF9c438bB95BA7fEAc8C8b6A647",
+  "deployedAt": "2026-09-24T14:39:39.253Z"
+}
